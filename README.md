@@ -7,13 +7,18 @@
 
 <img src="https://github.com/qiaodaimadelaowang/screenshots/raw/master/idea-leetcode.png" width = "300" height = "210" alt="IDEA项目截图" align=center />
 
+既然用的是IDEA，而且我最擅长的也是java，所以算法基本都是用java来写的。
+
 2.把已经存在的本地git项目上传到gitbub上去
 
-[](https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/)
+这是github的帮助文档
+[adding-an-existing-project-to-github-using-the-command-line](https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/)
 
-不过这个过程当中遇到了一个问题，就是当复制的仓库地址是https格式的，总是报错，即使我把.ssh/目录下的所有ssh key删了。
+不过这个过程当中遇到了一个问题，就是当复制的仓库地址是https格式的时候，在命令行添加仓库地址总是报错，即使我把本机的.ssh/目录下的所有ssh key删了。
 
-后来删除leetcode仓库（这里面已经有README.md文件以及lincese文件）之后又新建了leetcode仓库（没有创建README.md等任何文件），并且把地址改成了ssh格式之后，就好了。
+后来删除leetcode仓库（这里面已经有README.md文件以及lincese文件）之后又新建了空的leetcode仓库（没有创建README.md等任何文件），并且把地址改成了ssh格式之后，就好了。
+
+下面是命令行报错的信息：
 
 tinyhuiwang:leetcode tinyhuiwang$ **git push --set-upstream origin master**
 

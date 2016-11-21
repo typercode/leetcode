@@ -28,7 +28,7 @@ package com.leetcode.easy;
  * <p>
  * Explanation: The perimeter is the 16 yellow stripes in the image below:
  * <p>
- * https://github.com/qiaodaimadelaowang/screenshots/blob/master/island.png?raw=true
+ * ![island](https://github.com/qiaodaimadelaowang/screenshots/blob/master/island.png?raw=true)
  * <p>
  * Author: wanghui<tinyhui.wang@gmail.com>
  * Created on: 2016-11-21 11:23

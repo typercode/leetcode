@@ -42,7 +42,7 @@ import java.util.List;
 public class FizzBuzz {
 
     public List<String> solution(int n) {
-        List<String> msg = new ArrayList<String>(n);
+        List<String> msg = new ArrayList<>(n);
         for (int i = 1; i <= n; i++) {
             if (i % 3 != 0 && i % 5 != 0) {
                 msg.add("" + i);

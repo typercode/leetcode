@@ -60,7 +60,7 @@ public class FizzBuzz {
     public static void main(String[] args) {
         FizzBuzz fb = new FizzBuzz();
         System.out.println(fb.solution(15));
-//        System.out.println(fb.fizzBuzz(Integer.valueOf(args[0])));
+//        System.out.println(fb.solution(Integer.valueOf(args[0])));
     }
 
 }

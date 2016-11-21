@@ -70,3 +70,6 @@ hs_err_pid*
 *.ipr
 *.iws
 target
+
+#mac
+.DS_Store

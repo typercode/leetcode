@@ -17,6 +17,10 @@ package com.leetcode.easy;
  * <p>
  * For example, if there are 4 stones in the heap, then you will never win the game: no matter 1, 2, or 3 stones you remove, the last stone will always be removed by your friend.
  * <p>
+ * 这个问题没有仔细想，是看的Editorial Solution
+ * <p>
+ * 所以没有意思。
+ * <p>
  * Author: wanghui<tinyhui.wang@gmail.com>
  * Created on: 2016-11-21 18:21
  */
@@ -24,12 +28,11 @@ package com.leetcode.easy;
 public class NimGame {
 
     public boolean solution(int n) {
-
-        return false;
+        return (n % 4 != 0);
     }
 
     public static void main(String[] args) {
         NimGame ng = new NimGame();
-        ng.solution(2);
+        System.out.println(ng.solution(8));
     }
 }

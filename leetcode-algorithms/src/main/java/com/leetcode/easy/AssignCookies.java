@@ -1,5 +1,7 @@
 package com.leetcode.easy;
 
+import java.util.Arrays;
+
 /**
  * Created with IntelliJ IDEA.
  * <p>
@@ -52,43 +54,40 @@ package com.leetcode.easy;
 public class AssignCookies {
 
     /**
-     * assume g and s are <b>ordered</b>.
-     *
      * @param g
      * @param s
      * @return
      */
     public int solution(int[] g, int[] s) {
+        Arrays.sort(g);
+        Arrays.sort(s);
         int num = 0;
+        int j = s.length - 1;
         for (int i = g.length - 1; i >= 0; i--) {
-            for (int j = s.length - 1; j >= 0; j--) {
+            for (; j >= 0; j--) {
                 if (g[i] <= s[j]) {
                     num++;
+                    j--;
                     break;
                 }
+            }
+            if (j < 0 && i > 0) {
+                j = s.length - 1 - num;
             }
         }
         return num;
     }
 
-
-    /**
-     * assume g and s are <b>unordered</b>.
-     *
-     * @param g
-     * @param s
-     * @return
-     */
-    public int solution2(int[] g, int[] s) {
-        int num = 0;
-        //TODO implements
-        return num;
-    }
-
     public static void main(String[] args) {
         AssignCookies ac = new AssignCookies();
-        int[] g = {1, 2, 3};
+        int[] g = {1, 5, 3, 6};
         int[] s = {1, 1};
+
+
+//        int[] s = {1, 2, 3};
+//        int[] s = {1, 2};
+//        int[] s = {1, 1};
+        //int[] s = {3};
         System.out.println(ac.solution(g, s));
     }
 }

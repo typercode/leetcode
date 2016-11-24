@@ -24,7 +24,7 @@
     
     * leetcode是全英文的，所以问题也是英文的，对于想学英语的，刚好可以锻炼英语。
     
-    * 当提交被接受时，可以查看Reveal Solution，里面有多个答案。
+    * 当提交被接受时，可以查看Reveal Solution，里面有多个答案，而且还有复杂度分析（Complexity Analysis）。
     
     * 有时候问题里面，想要的答案要求写的不是特别详细，所以有时候提交的时候会失败。
     比如https://leetcode.com/problems/two-sum/ 这个问题里面，返回的数组索引不能是同一个。

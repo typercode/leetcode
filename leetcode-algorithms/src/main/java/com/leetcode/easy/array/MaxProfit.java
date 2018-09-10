@@ -7,7 +7,7 @@ package com.leetcode.easy.array;
  * https://leetcode-cn.com/explore/interview/card/top-interview-questions-easy/1/array/22/
  *
  *
- * https://leetcode-cn.com/submissions/detail/6845815/
+ * https://leetcode-cn.com/submissions/detail/6845815/  -- 这里有一个1ms的算法
  * @author: wanghui<tinyhui.wh_alibaba-inc.com>
  * @date: 2018-08-23 11:25
  */

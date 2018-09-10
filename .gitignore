@@ -66,6 +66,7 @@ local.properties
 hs_err_pid*
 
 #idea
+.idea
 *.iml
 *.ipr
 *.iws

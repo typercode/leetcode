@@ -1,4 +1,4 @@
-# leetcode
+# leetcode [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
 
 想必大家都知道leetcode，这里是记录我在leetcode的点点滴滴。
 

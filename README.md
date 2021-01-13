@@ -22,7 +22,7 @@
     
 ## leetocode上的一些细节
     
-    * leetcode是全英文的，所以题目也是英文的，对于想学英语的，刚好可以锻炼英语；（更新：现在有中文网站了 https://leetcode-cn.com/ 里面的内容也都是中文）
+    * leetcode是全英文的，所以题目也是英文的，对于想学英语的，刚好可以锻炼英语；（更新：现在有中文网站了 https://leetcode-cn.com/ 里面的内容也都是中文，但是可以在中英文之间切换）
     
     * 当提交被接受时，可以查看Reveal Solution，里面有多个答案，而且还有复杂度分析（Complexity Analysis）；
     

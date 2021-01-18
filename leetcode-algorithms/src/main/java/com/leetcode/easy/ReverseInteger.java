@@ -14,6 +14,8 @@ public class ReverseInteger {
    * 链接：https://leetcode-cn.com/problems/reverse-integer/solution/zheng-shu-fan-zhuan-by-leetcode/
    * 来源：力扣（LeetCode） 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
    *
+   * <p>假设我们的环境只能存储得下 32 位的有符号整数，则其数值范围为 [−2的31次, （2的31次）减1]。请根据这个假设，如果反转后整数溢出那么就返回 0。
+   *
    * @param x
    * @return
    */
@@ -41,7 +43,7 @@ public class ReverseInteger {
    * @param x
    * @return
    */
-  public int uglyReverse(int x) {
+  public int myUglyReverse(int x) {
     System.out.println(x);
     int result = 0;
     if (x == 0) {
